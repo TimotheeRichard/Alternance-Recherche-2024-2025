@@ -1,3 +1,6 @@
+- [Voir la branche principale](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/main)
+
+
 # Alternance-Recherche-2024-2025
 Rapport de l'alternance recherche de Timothée Richard au laboratoire IRPHE. L'alternance a eu lieu de décembre 2024 à janvier 2025.
 
@@ -38,33 +41,19 @@ Pour évaluer les flux aux exutoires des bassins versants, il existe différents
 
 ## Sommaire
 
-    I. Première année (décembre 2023 à juillet 2024)
- 
-        I.1. Détermination de Csol
+### I. Première année (décembre 2023 à juillet 2024)
+- [I.1. Détermination de Csol](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.1.-Détermination-de-Csol)
+- [I.2. Calibration de Tmig et pero](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.-Calibration-de-Tmig-et-pero)
+  - [I.2.a. Simulation pour la calibration](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.a.-Simultation-pour-la-calibration)
+  - [I.2.b. Analyse de la convergence des chaînes de Markov](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.b.-Analyse-de-la-convergence-des-chaînes-de-Markov)
+  - [I.2.c. Distribution a posteriori des paramètres](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.c.-Distribution-a-posteriori-des-paramètres)
+  - [I.2.d. Comparaison prédictions/mesures](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.d.-Comparaison-prédictions/mesures)
+  - [I.2.e. Indicateurs de performance du modèle](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.e.-Indicateurs-de-performance-du-modèle)
+  - [I.2.f. Contributions](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/I.2.f.-Contributions)
 
-        I.2. Calibration de Tmig et pero
-
-            I.2.a. Simulation pour la calibration
-
-            I.2.b. Analyse de la convergence des chaînes de Markov
-
-            I.2.c. Distribution a posteriori des paramètres
-
-            I.2.d. Comparaison prédictions/mesures
-
-            I.2.e. Indicateurs de performance du modèle
-
-            I.2.f. Contributions
-
-    II. Deuxième année (septembre 2024 à janvier 2025)
-
-        II.1. Github pour l'IRSN
-
-        II.2. CASTEAURX
-
-            II.2.a. Réseau hydraulique
-
-            II.2.b. Apports et classes sédimentaires
-
-            II.2.c. Résultats obtenus
-    
+### II. Deuxième année (septembre 2024 à janvier 2025)
+- [II.1. Github pour l'IRSN](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.Github-pour-l'IRSN)
+- [II.2. CASTEAURX](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.CASTEAURX)
+  - [II.2.a. Réseau hydraulique](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.a.-Réseau-hydraulique)
+  - [II.2.b. Apports et classes sédimentaires](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.b.-Apports-et-classes-sédimentaires)
+  - [II.2.c. Résultats obtenus](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.c.-Résultats-obtenus)

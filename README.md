@@ -73,4 +73,10 @@ postInterval = getPredictiveIntervals1(outputbayes, pred, error=NULL)
 
 ![image](https://github.com/user-attachments/assets/e7223eae-1871-4d34-a0f6-acdd657d2aaf)
 
+## 3. Distribution a posteriori de pero
 
+**En utilisant le code donné avant, on obtient une distribution a posteriori pour le pourcentage d'érosion des sols (pero ou %ero).**
+
+**Dans le cas de la Moselle, on obtient ceci par exemple :**
+
+![image](https://github.com/user-attachments/assets/7430f78e-d10d-4012-bdbe-9e1905f07438)

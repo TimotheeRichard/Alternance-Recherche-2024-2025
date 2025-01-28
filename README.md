@@ -1,6 +1,6 @@
 # I.2.a. Simulation pour la calibration
 
-## Détermination de la loi de distribution a priori
+## 1. Détermination de la loi de distribution a priori
 
 **Il faut commencer par déterminer les lois de distribution a priori de nos paramètres, afin de pouvoir par la suite utiliser ces lois dans la simulation des petites chaînes de Markov et des grandes chaînes de Markov**
 
@@ -11,7 +11,7 @@
 | **Tmig (j)** | Uniforme | 100 | 5000 |
 | **%ero** | Uniforme | 0,5 | 10 |
 
-## Création des fichiers .in
+## 2. Création des fichiers .in
 
 **On utilise le script R ci_dessous pour créer les fichiers .in permettant de simuler trois chaînes de Markov à 200 itérations avec chacune un différent seed.**
 
@@ -207,7 +207,7 @@ cat("}\n\n End.")
 sink()
 ```
 
-## Création des fichiers supp.in
+## 3. Création des fichiers supp.in
 
 **On utilise les premiers fichiers .in pour en créer de nouveaux qui permettent de simuler des chaînes de Markov à 5000 itérations (les 200 premières étant les anciennes chaînes). On le fait pour les trois différents fichiers .in de l'étape précédente.**
 
@@ -357,7 +357,7 @@ Level {
  End.
 ```
 
-## Simulation des trois petites chaînes de Markov
+## 4. Simulation des trois petites chaînes de Markov
 
 **On utilise le script R ci-dessous avec les premiers fichiers .in aux 200 itérations pour simuler les trois chaînes de Markov à 200 itérations. On obtient alors les trois fichiers .out correspondant aux trois simulations de chaînes de Markov à 200 itérations.**
 
@@ -628,7 +628,7 @@ iter	Tmig(1)	pero(1)	sigmasq_AM(1)	LnPrior	LnData	LnPosterior
 200	4127.86	 1.51	0.274991	-1.017504e+01	-1.529647e+02	-1.631398e+02
 ```
 
-## Simulation des trois grandes chaînes de Markov
+## 5. Simulation des trois grandes chaînes de Markov
 
 **Grâce au script R ci-dessous, on simule les trois chaîne de Markov à 5000 itérations.
 On obtient alors les trois fichiers .out correspondant aux trois chaînes de Markov à 4800 itérations simulées (les 200 premières constituant le burn-in, les petites chaînes simulées juste avant).**

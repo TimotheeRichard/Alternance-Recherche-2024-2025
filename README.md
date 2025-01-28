@@ -123,3 +123,13 @@ C’est une variation du RMSE qui prend en compte l'échelle des données. Il es
 - **Valeur du RRMSE** : Le RRMSE donne une mesure de l'erreur relative. Une valeur plus faible indique que les prédictions du modèle sont relativement proches des valeurs observées par rapport à la moyenne des observations.
 - **Comparaison entre ensembles de données** : Le RRMSE permet de comparer la performance d'un modèle sur différents ensembles de données, même si ces ensembles de données ont des échelles différentes.
 - **Indépendance de l'échelle** : En normalisant l'erreur par rapport à la moyenne des valeurs observées, le RRMSE rend l'évaluation des modèles moins dépendante de l'échelle des données.
+
+## 6. Exemple d'indicateurs de performance dans le cas de la Loire
+
+En utilisant le code donné avant, on obtient dans le cadre de la Loire ces résultats d'indicateurs de performance :
+
+| Indicateurs | KGE | NSE | RMSE | RRMSE |
+|------ | ------ | ------ | ------ | ------ |
+| Valeur | 0.68 | 0.62 | 14.82 | 0.084 |
+
+**Ils montrent tous une bonne performance du modèle.**

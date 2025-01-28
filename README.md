@@ -75,5 +75,5 @@ Un modèle a donc été développé, utilisant les différentes données d'entr�
 
 ### III. Synthèse finale
 - [III.1. Conclusion sur les résultats de la première année](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/III.1.-Conclusion-sur-les-résultats-de-la-première-année)
-- [III.1. Conclusion sur les résultats de la deuxième année](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/III.1.-Conclusion-sur-les-résultats-de-la-deuxième-année)
-- [III.1. Retour personnel sur l'alternance](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/III.1.-Retour-personnel-sur-l'alternance)
+- [III.2. Conclusion sur les résultats de la deuxième année](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/III.2.-Conclusion-sur-les-résultats-de-la-deuxième-année)
+- [III.3. Retour personnel sur l'alternance](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/III.3.-Retour-personnel-sur-l'alternance)

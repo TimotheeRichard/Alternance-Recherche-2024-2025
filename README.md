@@ -13,6 +13,7 @@ Mon objectif a donc été de reprendre le modèle et ce code excel pour en faire
 
 ## Ma version de code pour Csol
 
+```python
 from math import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -304,6 +305,7 @@ Excel_res()
 fin_chrono = time.time()
 temps_execution = fin_chrono - deb_chrono
 print("Temps d'exécution =", temps_execution, 's')
+```
 
 ## Version finale améliorée par Mme Valérie Nicoulaud Gouin
 

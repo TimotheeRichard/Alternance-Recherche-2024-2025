@@ -73,3 +73,19 @@ représentent respectivement les moyennes et les variances.
 - KGE = 1 indique une parfaite correspondance entre les valeurs observées et simulées.
 - Plus le KGE est proche de 1, meilleure est la performance du modèle.
 - Un KGE négatif indique une mauvaise performance du modèle.
+
+## 3. NSE
+
+**NSE est le coefficient d’efficience de Nash-Sutcliffe du modèle :**
+
+$$
+NSE = 1 - \frac{\sum{(y_{pred} - y_{mes})^2}}{\sum{(\bar{y_{mes}} - y_{mes})^2}}
+$$
+
+**C’est comme le KGE (évalue la performance des modèles hydrologiques) sauf que le KGE est apparu après. Il varie aussi entre -∞ et 1 :**
+- **NSE=1** indique une parfaite correspondance entre les valeurs observées et simulées.
+- **NSE>0.75** : Performance du modèle très bonne.
+- **0.36≤NSE≤0.75** : Performance satisfaisante.
+- **NSE<0.36** : Performance du modèle faible.
+- **NSE=0** : Le modèle est aussi bon qu'une moyenne des observations.
+- **NSE<0** : Le modèle est moins performant qu'une moyenne des observations.

@@ -33,3 +33,13 @@ Une fois les concentrations de sol obtenues pour chaque jour de l'apport, on le 
 Cette concentration traduira l'apport en Cs137 qu'aura ce débit d'eau sachant que l'on a une classe de particule à 3,4 μm.
 Je n'ai pas encore réussi à introduire ces concentration de sol à cause de certains bugs de CASTEAURX. 
 
+## 3. Apport de Cattenom
+
+Enfin, il nous faut introduire les apports en radionucléides (Cs137 dans notre cas) de la centrale de Cattenom.
+
+Ainsi, il faut ajouter un nouvel apport dans CASTEAURX, qui se situe au niveau de Cattenom dans notre réseau. 
+Ensuite, on entre dans cet apport les données de rejets liquides de Cattenom qu'on avait réuni l'année dernière.
+
+Voici alors sous CASTEAURX notre deuxième apport qui transporte du Cs137 et qui traduit la part des rejets liquides :
+
+![Capture d'écran 2025-01-16 145733](https://github.com/user-attachments/assets/b294f89f-3e20-453f-acd6-be88a1e49476)

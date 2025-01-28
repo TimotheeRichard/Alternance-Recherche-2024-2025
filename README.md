@@ -23,3 +23,11 @@ Seulement, ça ne traduit que l'apport de la centrale de Cattenom pour le moment
 
 ![Capture d'écran 2025-01-16 152024](https://github.com/user-attachments/assets/c4431552-cc48-44a1-a72f-daec7780bd1b)
 
+## 3. Calibration de la pente et du coefficient de Strickler
+
+Enfin, il nous faut calibrer **la pente de notre réseau et le coefficient de Strickler** qui sont deux paramètres dont la valeur est peu précise.
+Pour y parvenir, nous prenons les hauteurs d'eau obtenues à la sortie de CASTEAURX au niveau de la station de mesure ; nous les comparons aux hauteurs d'eau mesurées par la station de mesure (obtenues sur HydroPortail).
+
+On règle ainsi la pente et le coefficient de Strickler pour avoir la meilleure concordance des valeurs de hauteurs d'eau. Voici la meilleure concordance que j'ai obtenue :
+
+![image](https://github.com/user-attachments/assets/9428ac7d-8a76-4fda-b1f4-8c6649d2d4b3)

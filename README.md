@@ -293,3 +293,9 @@ Result.to_csv("AveragedModel_ReleaseOnly_Moselle.csv",sep=";",index=False)
 ```
 
 **On obtient alors deux fichiers csv, l'un donnant la contribution journalière et l'autre celle moyenne.**
+
+## 5. Exemple de résultats de contributions obtenues pour la Moselle
+
+Voici un exemple de ce qu'on obtient graphiquement en représentant les différentes contributions dans le cas de la Moselle :
+
+![PlotContribution_Moselle](https://github.com/user-attachments/assets/f038816f-4036-423a-a7a5-713c790e4726)

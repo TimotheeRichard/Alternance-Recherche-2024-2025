@@ -187,3 +187,41 @@ $$
 - **R≈1** : Indique que les chaînes ont probablement convergé vers la même distribution cible. Un R proche de 1 (typiquement R<1.1) est souvent utilisé comme critère de convergence.
 
 - **R>1** : Indique que les chaînes n'ont pas encore convergé. Cela signifie qu'il y a encore une différence notable entre les variances intra-chaîne et inter-chaîne, suggérant que plus de simulations sont nécessaires.
+
+## 3. Diagnostic de convergence de Geweke
+
+**Ce diagnostic permet de vérifier la convergence des chaînes MCMC, ça permet de vérifier si les échantillons provenant des différentes parties de la chaîne proviennent de la même distribution stationnaire, ce qui indiquerait la convergence de la chaîne.**
+
+Ça compare les moyennes de deux segments de la chaîne : le segment initial et le segment final. Si les deux segments proviennent de la même distribution alors leurs moyennes devraient être similaires et la différence normalisée devrait suivre une distribution normale standard.
+
+**_Diviser la chaîne en segments :_**
+
+Diviser la chaîne MCMC en deux segments non superposés. Par exemple, en utilisant les 10 % premiers et les 50 % derniers échantillons de la chaîne.
+
+**_Calculer les moyennes et les variances :_**
+
+- Moyenne et variance du segment initial :
+
+$$
+\bar{X_A};\sigma_A^2
+$$
+
+- Moyenne et variance du segment final :
+
+$$
+\bar{X_B};\sigma_B^2
+$$
+
+**_Calculer la statistique de Geweke (Z-score) :_**
+
+$$
+Z = \frac{\bar{X_A} - \bar{X_B}}{\sqrt{\sigma_A^2 + \sigma_B^2}}
+$$
+
+**_Interprétation :_**
+
+- **Z-scores proches de zéro** : indiquent que les segments initiaux et finaux de la chaîne ont des moyennes similaires, suggérant que la chaîne a convergé.
+
+- **Z-scores éloignés de zéro** (au-delà de ±1.96 ou d'autres seuils selon le niveau de confiance choisi) : indiquent une possible non-convergence de la chaîne, suggérant que plus d'itérations ou un réajustement du modèle pourraient être nécessaires.
+
+## 4. Test de stationarité de Heidelberger Welch

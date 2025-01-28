@@ -185,4 +185,60 @@ Mycompute.RCT[["pdt","CSED"]].to_csv("DailyModel_TchernobylOnly_Moselle.csv")
 Result.to_csv("AveragedModel_TchernobylOnly_Moselle.csv",sep=";",index=False)
 ```
 
+## 3. Essais nucléaire
+
+Par exemple, dans le cas de la **Moselle**, voici le code qui donne la contribution des **essais nucléaires** dans le modèle :
+
+```python
+import numpy as np
+import pandas as pd
+from datetime import timedelta
+
+from Read_Path import Read_data
+from Concentration import Concentration
+
+ReadMoselle = Read_data("Moselle",start_depot=0,start_release=0, start_carot=0)
+Nj =  (2020 - 1945) * 365
+ReadMoselle.df_Carot.head()
+ReadMoselle.df_Parameter
+ReadMoselle.df_Parameter.values
+ReadMoselle.df_Parameter.lrnero.values
+Newparameter = pd.DataFrame([[1319.0800,5.0692]],columns = ['Tmig',  'pero'])
+ReadMoselle.update_parameter(Newparameter)
+ReadMoselle.df_Parameter.lmig
+ReadMoselle.df_Depot
+ReadMoselle.update_depot("TestOnly")
+ReadMoselle.df_Release.head()
+ReadMoselle.df_Carot
+ReadMoselle.df_Carot["Cesium137_Bq.kg\n(depose)"]
+Mycompute = Concentration(ReadMoselle.df_Parameter, ReadMoselle.df_Depot,ReadMoselle.df_Release, ReadMoselle.df_Carot,Nj)
+print(Mycompute.RCT.shape)
+Mycompute.RCT.head()
+Mycompute.AveragedModel
+Mycompute.RCT['pdt'] = pd.to_datetime(Mycompute.RCT['pdt'])
+Mycompute.RCT.dtypes
+
+from datetime import timedelta, datetime
+format = '%Y-%m-%d'
+Date_mean = [(datetime(int(x), 1, 1) + timedelta(days = (x % 1) * 365)).strftime(format) for x in ReadMoselle.df_Carot.Age_mean]
+Date_min = [(datetime(int(x), 1, 1) + timedelta(days = (x % 1) * 365)).strftime(format) for x in ReadMoselle.df_Carot.Age_min]
+Date_min[0] =  Mycompute.RCT.pdt[0]
+Date_max = [(datetime(int(x), 1, 1) + timedelta(days = (x % 1) * 365)).strftime(format) for x in ReadMoselle.df_Carot.Age_max]
+Date_max[len(Mycompute.df_Carot.Age_mean)-1]= Mycompute.RCT.pdt[len(Mycompute.RCT.pdt)-1].strftime(format)
+Date_mean
+Result= pd.DataFrame([],columns = ['Date_mean',  'Date_min', 'Date_max','Time','Archive','AveragedModel'])
+Result.Date_mean = Date_mean
+Result.Date_min = Date_min
+Result.Date_max = Date_max
+Result.Time = Mycompute.AveragedModel.Time
+Result.Archive = Mycompute.AveragedModel.Archive
+Result.AveragedModel = Mycompute.AveragedModel.AveragedModel
+
+Mycompute.RCT[["pdt","CSED"]].to_csv("DailyModel_TestOnly_Moselle.csv")
+Result.to_csv("AveragedModel_TestOnly_Moselle.csv",sep=";",index=False)
+```
+
+**On obtient alors deux fichiers csv, l'un donnant la contribution journalière et l'autre celle moyenne.**
+
+
 **On obtient alors deux fichiers csv, l'un donnant la contribution journalière et l'autre celle moyenne.**

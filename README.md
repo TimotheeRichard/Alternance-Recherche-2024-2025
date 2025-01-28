@@ -65,3 +65,12 @@ Core_Trajectory = run[which(run["Output_Var"] == "Averaged_out"),"Data"] #Data d
 postInterval = getPredictiveIntervals1(outputbayes, pred, error=NULL)
 ```
 
+## 2. Distribution a posteriori de Tmig
+
+**En utilisant le code donné avant, on obtient une distribution a posteriori pour le temps de migration vertical dans les sols.**
+
+**Dans le cas de la Moselle, on obtient ceci par exemple :**
+
+![image](https://github.com/user-attachments/assets/e7223eae-1871-4d34-a0f6-acdd657d2aaf)
+
+

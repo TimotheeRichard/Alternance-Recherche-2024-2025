@@ -89,3 +89,15 @@ $$
 - **NSE<0.36** : Performance du modèle faible.
 - **NSE=0** : Le modèle est aussi bon qu'une moyenne des observations.
 - **NSE<0** : Le modèle est moins performant qu'une moyenne des observations.
+
+## 4. RMSE
+
+**RMSE est la racine de l’erreur quadratique moyenne :**
+
+$$
+RMSE = \sqrt{\frac{1}{T}\sum{(y_{pred} - y_{mes})^2}}
+$$
+
+- **RMSE = 0** : Indique une parfaite correspondance entre les valeurs observées et simulées.
+- **Valeur du RMSE** : Plus le RMSE est faible, meilleure est la performance du modèle.
+- **Sensibilité aux grandes erreurs** : Le RMSE donne plus de poids aux grandes erreurs en raison de la mise au carré des différences.

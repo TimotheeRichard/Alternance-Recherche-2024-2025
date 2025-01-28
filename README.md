@@ -185,6 +185,8 @@ Mycompute.RCT[["pdt","CSED"]].to_csv("DailyModel_TchernobylOnly_Moselle.csv")
 Result.to_csv("AveragedModel_TchernobylOnly_Moselle.csv",sep=";",index=False)
 ```
 
+**On obtient alors deux fichiers csv, l'un donnant la contribution journalière et l'autre celle moyenne.**
+
 ## 3. Essais nucléaire
 
 Par exemple, dans le cas de la **Moselle**, voici le code qui donne la contribution des **essais nucléaires** dans le modèle :

@@ -54,3 +54,4 @@ Pour évaluer les flux aux exutoires des bassins versants, il existe différents
   - [II.2.a. Réseau hydraulique](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.a.-Réseau-hydraulique)
   - [II.2.b. Apports et classes sédimentaires](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.b.-Apports-et-classes-sédimentaires)
   - [II.2.c. Résultats obtenus](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.2.c.-Résultats-obtenus)
+- [II.3. Transmission de l'alternance à Camille Renaux](https://github.com/TimotheeRichard/Alternance-Recherche-2024-2025/tree/II.3.-Transmission-de'l'alternance-à-Camille-Renaux)

@@ -1,2 +1,8 @@
-# Alternance-Recherche-2024-2025
-Rapport de l'alternance recherche de Timothée Richard au laboratoire irphé. L'alternance a eu lieu de décembre 2024 à janvier 2025.
+# II.2.c. Résultats obtenus
+
+## 1. Résultats incomplets
+
+Comme nous l'avons vu dans l'apport hydraulique, il me manque encore les concentrations de sol dans l'apport.
+Ainsi, les résultats que j'ai à ce jour sont encore incomplets et ne traduisent pas parfaitement la concentration en Cs137 dans la distribution qu'on obtient.
+
+Je réglerai ce problème après le rendu de ce rapport, mais ce github sera tout de même modifié en ajoutant les nouvelles avancées sur les résultats.

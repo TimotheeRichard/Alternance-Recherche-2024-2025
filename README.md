@@ -51,7 +51,7 @@ Ces trois phénomènes ont ainsi alimenté les bassins versants en nucléotides,
 Différents fleuves français seront étudiés pour trouver l'évolution de la concentration en Césium des années 50 à aujourd'hui : le Rhin, la Moselle, la Meuse et la Loire. 
 Les données d'entrée du modèle sont les carottes sédimentaires et les données de rejets des centrales. Les carottes sédimentaires fournissent une évolution temporelle des années 50 à aujourd'hui de l'effet des retombées atmosphériques et du lessivage.
 
-Un modèle a donc été développé, utilisant les différentes données d'entrées et de la mécanique des fluides pour fournir un profil de concentration en Césium 137 des années 50 à aujourd'hui. Cependant, les carottes sédimentaires fournissent des données pour chaque jour sur 70 ans, ce qui représente une très grande quantité de données à traiter. Ainsi, une première problématique est de trouver un code pouvant traiter cette quantité de données en un temps le plus court possible.
+Un modèle semi-empirique a donc été développé, utilisant les différentes données d'entrées et de la mécanique des fluides pour fournir un profil de concentration en Césium 137 des années 50 à aujourd'hui. Cependant, les carottes sédimentaires fournissent des données pour chaque jour sur 70 ans, ce qui représente une très grande quantité de données à traiter. Ainsi, une première problématique est de trouver un code pouvant traiter cette quantité de données en un temps le plus court possible.
 
 ## Sommaire
 

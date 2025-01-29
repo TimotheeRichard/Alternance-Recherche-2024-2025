@@ -13,7 +13,7 @@ Cependant ce code excel prenait trop de temps à s'exécuter. Mon objectif a don
 
 ## 3. Signification de Csol
 
-Csol représente la concentration moyenne de Césium 137 dans les sols des bassins versants. En voici une description détaillée issue de [Tomczak_2021_Modelling of solid _ liquid fractionation of trace metals for suspended sediments.pdf](https://github.com/user-attachments/files/18585992/Tomczak_2021_Modelling.of.solid._.liquid.fractionation.of.trace.metals.for.suspended.sediments.pdf) : 
+Csol représente la concentration moyenne de Césium 137 dans les sols des bassins versants. En voici une description détaillée issue de [*Tomczak_2021_Modelling of solid _ liquid fractionation of trace metals for suspended sediments.pdf*](https://github.com/user-attachments/files/18585992/Tomczak_2021_Modelling.of.solid._.liquid.fractionation.of.trace.metals.for.suspended.sediments.pdf) : 
 
 >**3.4 Statistical distribution of the mean 434 137Cs concentrations in the soils of the catchment**
 

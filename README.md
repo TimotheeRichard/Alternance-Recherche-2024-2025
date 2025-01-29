@@ -16,11 +16,11 @@ Cependant ce code excel prenait trop de temps à s'exécuter. Mon objectif a don
 Csol représente la concentration moyenne de Césium 137 dans les sols des bassins versants. En voici une description détaillée issue de [*Tomczak_2021_Modelling of solid _ liquid fractionation of trace metals for suspended sediments.pdf*](https://github.com/user-attachments/files/18585992/Tomczak_2021_Modelling.of.solid._.liquid.fractionation.of.trace.metals.for.suspended.sediments.pdf) : 
 
 >**3.4 Statistical distribution of the mean 434 137Cs concentrations in the soils of the catchment**
-
+>
 >The background of the <sup>137</sup>Cs concentrations in the soils of the Rhône watershed is related to the atmospheric fallout from past nuclear tests and the Chernobyl accident (Perkins and Thomas, 1980; Duffa, 2001; Zebracki et al., 2013a,b). This background was estimated between 11 and 19 Bq.kg <sup>-1</sup> 439 for the year 2003 (Antonelli et al., 2008; Eyrolle et al., 2012) and between 3 and 11 Bq.kg<sup>-1</sup> for the year 2018 (Thollet et al., 2018). Consequently, the variations of the minimal and maximal values of C<sub>soil</sub> for the period 2003 to 2018 can be described by two exponential relations with an effective decay period of 7 years for the minimal values (C<sub>soil,MIN</sub> = 11 ∙ e<sup>-0.1∙(y-2003)</sup>) and of 16 years for the maximal values (C<sub>soil,MAX</sub> = 19 ∙ e<sup>-0.042∙(y-2003)</sup>) with y the considered year. These values are within the range of the values published in the scientific literature (Garcia-Sanchez, 2008). They are faster than the radioactive decay period of <sup>137</sup>Cs (30.2 years) because they aggregate the radioactive decay with several transfer processes such as wash-off, erosion, vertical migration in soils, etc...
-
+>
 >The statistical distribution of C<sub>soil</sub> between 2015 and 2018 was determined by discretizing these two curves with a yearly time step. For each year, the interval between the minimal and maximal values was discretized into 20 intervals with the assumption of uniform distribution. These steps provided a dataset of 260 soil activities which was statistically described by a log-normal distribution with GM(C<sub>soil</sub>) = 9.8 Bq.kg<sup>-1</sup> and GSD(C<sub>soil</sub>) = 1.46 (R2 = 0.99).
-
+>
 >For each water flow rate, the distribution of Csoil was scanned between its 2th and 98th percentiles which were 4.5 and 21.3 Bq.kg<sup>-1</sup>. 
 
 ## 4. Ma version de code pour Csol
